@@ -1,4 +1,15 @@
+/* Below imports all default tailwind, new in v4 to replace tailwind.config */
 @import "tailwindcss";
+
+/* TODO: https://github.com/mui/material-ui/issues/45220 */
+/* https://mui.com/material-ui/integrations/nextjs/#using-other-styling-solutions */
+/* Fix MUI Tailwind v4 migration */
+
+/* Doesn't work: Import all tailwind except preflight for MUI */
+/* @layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities); */
 
 :root {
   --background: #ffffff;
