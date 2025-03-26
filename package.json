@@ -14,9 +14,13 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.7",
     "@mui/material-nextjs": "^6.4.3",
+    "axios": "^1.8.3",
+    "iron-session": "^8.0.4",
     "next": "15.2.2",
+    "plaid": "^31.1.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-plaid-link": "^3.6.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
